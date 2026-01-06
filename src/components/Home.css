@@ -107,6 +107,24 @@
   transform: translateY(0);
 }
 
+.forgot {
+  background: transparent;
+  color: #667eea;
+  border: none;
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.forgot:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
 .divider {
   display: flex;
   align-items: center;
@@ -149,7 +167,6 @@
   box-shadow: 0 10px 20px rgba(102, 126, 234, 0.2);
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -172,7 +189,6 @@
   }
 }
 
-/* Responsive */
 @media (max-width: 480px) {
   .login-card {
     padding: 30px 20px;

@@ -64,6 +64,7 @@ const Home = () => {
               <button type="submit" className="btn-primary">
                 Log In
               </button>
+              <button className="forgot">Forgot Password</button>
 
               <div className="divider">
                 <span>OR</span>
